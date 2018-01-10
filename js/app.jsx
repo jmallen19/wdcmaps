@@ -11,16 +11,18 @@ const ConfigUtils = require('../MapStore2/web/client/utils/ConfigUtils');
  * Add custom (overriding) translations with:
  *
  * ConfigUtils.setConfigProp('translationsPath', ['./MapStore2/web/client/translations', './translations']);
+ * ConfigUtils.setConfigProp('translationsPath', './MapStore2/web/client/translations');
  */
-ConfigUtils.setConfigProp('translationsPath', './MapStore2/web/client/translations');
+ConfigUtils.setConfigProp('translationsPath', ['./MapStore2/web/client/translations', './translations']);
 ConfigUtils.setConfigProp('themePrefix', 'wdcmaps');
 
 /**
  * Use a custom plugins configuration file with:
  *
  * ConfigUtils.setLocalConfigurationFile('localConfig.json');
+ * ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
  */
-ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
+ConfigUtils.setLocalConfigurationFile('localConfig.json');
 
 /**
  * Use a custom application configuration file with:

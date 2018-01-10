@@ -1,56 +1,39 @@
 {
 	"map": {
-		"projection": "EPSG:900913",
+		"projection": "EPSG:2193",
 		"units": "m",
-		"center": {"x": 1250000.000000, "y": 5370000.000000, "crs": "EPSG:900913"},
+		"center": {"x": 1976543.000000, "y": 5681755.000000, "crs": "EPSG:2193"},
     "zoom":5,
-		"maxExtent": [
-			-20037508.34, -20037508.34,
-			20037508.34, 20037508.34
-		],
+		"maxExtent": [827933.23, 3729820.29, 3195373.59, 7039943.58],
 		"layers": [
 			{
 				"type": "osm",
 				"title": "Open Street Map",
 				"name": "mapnik",
-        "source": "osm",
+				"source": "osm",
 				"group": "background",
-        "visibility": true
+				"visibility": false
 			},
-      {
-        "type": "google",
-        "title": "Google HYBRID",
-        "name": "HYBRID",
-        "source": "google",
-        "group": "background",
-        "visibility": false
-      },
-      {
-        "type": "mapquest",
-        "title": "MapQuest OSM",
-        "name": "osm",
-        "source": "mapquest",
-        "group": "background",
-        "visibility": false
-      },
-      {
-        "type": "tileprovider",
-        "title": "NASAGIBS Night 2012",
-        "provider": "NASAGIBS.ViirsEarthAtNight2012",
-        "name": "Night2012",
-        "source": "nasagibs",
-        "group": "background",
-        "visibility": false
-      },
-      {
-        "type": "tileprovider",
-        "title": "OpenTopoMap",
-        "provider": "OpenTopoMap",
-        "name": "OpenTopoMap",
-        "source": "OpenTopoMap",
-        "group": "background",
-        "visibility": false
-      }
+
+			{
+				"type": "tileprovider",
+				"title": "OpenTopoMap",
+				"provider": "OpenTopoMap",
+				"name": "OpenTopoMap",
+				"source": "OpenTopoMap",
+				"group": "background",
+				"visibility": false
+			},
+			
+			{
+				 "type": "ol",
+				 "title": "None",
+				 "source": "ol",
+				 "name": "none",
+				 "group": "background",
+				 "thumbURL": "/mapstore/dist/web/client/plugins/background/assets/img/dafault.jpg",
+				 "visibility": true
+			}
 		]
 	}
 }
