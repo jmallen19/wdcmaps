@@ -1,6 +1,6 @@
 {
     "name": "wdcmaps",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "wdcmapsdescription",
     "repository": "https://github.com/jmallen19/wdcmaps.git",
     "main": "index.js",

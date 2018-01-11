@@ -1,1 +1,1 @@
-wdcmaps-1.0.0
+wdcmaps-1.0.1

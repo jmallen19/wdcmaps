@@ -185,7 +185,7 @@
                 }
               }
             }
-          }, "AutoMapUpdate", "HelpLink", "Share", "DrawerMenu", "Version", "Notifications", "BackgroundSelector", "Annotations",
+          }, "AutoMapUpdate", "Share", "DrawerMenu", "Version", "Notifications", "BackgroundSelector", "Annotations",
             {
                 "name": "Identify",
                 "cfg": {
@@ -454,7 +454,7 @@
                 "limit": 12
               }
             }
-          }, "Examples", "Footer", {
+          }, "Footer", {
           "name": "Cookie",
           "cfg": {
             "externalCookieUrl" : "",
