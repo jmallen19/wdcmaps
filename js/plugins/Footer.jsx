@@ -14,7 +14,7 @@ class Footer extends React.Component {
         return (
             <div className="ms-footer col-md-12">
             <div><a target="_blank" href="https://www.wairoadc.govt.nz/"> <img src={src} width="140" title="Wairoa District Council" alt="Wairoa District Council" /></a> <br/><br/></div>
-                Wairoa District Council | Coronation Square, Queen Street, Wairoa - New Zealand | administrator@wairoadc.govt.nz | Tel: +64 6 838 7309 | Fax: +64 6 838 8874
+                Wairoa District Council | Coronation Square, Queen Street, Wairoa - New Zealand | <a href="mailto:administrator@wairoadc.govt.nz">administrator@wairoadc.govt.nz</a> | Tel: +64 6 838 7309 | Fax: +64 6 838 8874
             </div>
         );
     }
