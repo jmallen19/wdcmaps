@@ -11,7 +11,7 @@
     "initialMapFilter": "",
     "ignoreMobileCss": false,
     "useAuthenticationRules": true,
-    "themePrefix": "ms2",
+    "themePrefix": "wdcmaps",
     "defaultMapOptions": {
       "cesium": {
           "flyTo": true,
