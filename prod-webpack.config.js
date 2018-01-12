@@ -2,8 +2,8 @@ const path = require("path");
 
 // const themeEntries = require('./MapStore2/themes.js').themeEntries;
 // const extractThemesPlugin = require('./MapStore2/themes.js').extractThemesPlugin;
-const themeEntries = require('./js/themes.js').themeEntries;
-const extractThemesPlugin = require('./js/themes.js').extractThemesPlugin;
+const themeEntries = require('./themes.js').themeEntries;
+const extractThemesPlugin = require('./themes.js').extractThemesPlugin;
 
 module.exports = require('./MapStore2/buildConfig')(
     {
