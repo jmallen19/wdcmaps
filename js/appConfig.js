@@ -30,6 +30,11 @@ module.exports = {
     }],
     initialState: {
         defaultState: {
+            theme: {
+                selectedTheme: {
+                    id: "wdc"
+                }
+            },
             mousePosition: {enabled: false},
             controls: {
                 help: {
