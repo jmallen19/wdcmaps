@@ -64,7 +64,7 @@ module.exports = {
         QueryPanelPlugin: require('../MapStore2/web/client/plugins/QueryPanel'),
         WFSDownloadPlugin: require('../MapStore2/web/client/plugins/WFSDownload'),
         TutorialPlugin: require('../MapStore2/web/client/plugins/Tutorial'),
-        ThemeSwitcherPlugin: require('../MapStore2/web/client/plugins/ThemeSwitcher'),
+        ThemeSwitcherPlugin: require('./plugins/ThemeSwitcher'),
         ScrollTopPlugin: require('../MapStore2/web/client/plugins/ScrollTop'),
         GoFull: require('../MapStore2/web/client/plugins/GoFull'),
         GlobeViewSwitcherPlugin: require('../MapStore2/web/client/plugins/GlobeViewSwitcher'),
