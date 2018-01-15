@@ -10,6 +10,17 @@
     top: -20px;
 }
 
+#mapstore-navbar {
+    background-color:  #eeeeee;
+}
+.ms-footer{
+    background-color: #eeeeee;
+}
+.gridcard .map-thumb {
+    background-color: #eeeeee;
+    background-image: url();
+}
+
 .page-maps .MapSearchBar.maps-search {
     top: -80px;
 }
