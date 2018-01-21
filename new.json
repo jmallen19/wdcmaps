@@ -17,6 +17,17 @@
 
 			{
 				"type": "tileprovider",
+				"title": "LINZ NZ Aerial Imagery",
+				"provider": "LINZ.NZAerial",
+				"name": "NZAerial",
+				"source": "linz",
+				"group": "background",
+        "thumbURL": "/wdcmaps/dist/MapStore2/web/client/plugins/background/assets/img/Aerial.jpg",
+				"visibility": false
+			},
+
+			{
+				"type": "tileprovider",
 				"title": "OpenTopoMap",
 				"provider": "OpenTopoMap",
 				"name": "OpenTopoMap",
@@ -24,14 +35,14 @@
 				"group": "background",
 				"visibility": false
 			},
-			
+
 			{
 				 "type": "ol",
 				 "title": "None",
 				 "source": "ol",
 				 "name": "none",
 				 "group": "background",
-				 "thumbURL": "/mapstore/dist/web/client/plugins/background/assets/img/dafault.jpg",
+				 "thumbURL": "/wdcmaps/dist/MapStore2/web/client/plugins/background/assets/img/dafault.jpg",
 				 "visibility": true
 			}
 		]
