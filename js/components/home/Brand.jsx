@@ -7,7 +7,7 @@
  */
 const React = require('react');
 
-const brand = require('../../assets/img/wairoa_logo_m.png');
+const brand = require('../../assets/img/wairoa_logo_280x70.png');
 
 class Brand extends React.Component {
     render() {
