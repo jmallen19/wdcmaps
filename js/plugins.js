@@ -48,7 +48,7 @@ module.exports = {
         MapTypePlugin: require('../MapStore2/web/client/product/plugins/MapType'),
         LanguagePlugin: require('../MapStore2/web/client/plugins/Language'),
         AttributionPlugin: require('./plugins/Attribution'),
-        HeaderPlugin: require('./plugins/Header'),
+        HeaderPlugin: require('../MapStore2/web/client/product/plugins/Header'),
         ForkPlugin: require('../MapStore2/web/client/product/plugins/Fork'),
         FooterPlugin: require('./plugins/Footer'),
         ManagerPlugin: require('../MapStore2/web/client/plugins/manager/Manager'),
