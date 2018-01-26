@@ -7,7 +7,7 @@ const PropTypes = require('prop-types');
  * LICENSE file in the root directory of this source tree.
  */
 const React = require('react');
-const src = require("./attribution/wairoa_logo_280x70.png");
+const src = require("../assets/img/wairoa_logo_280x70.png");
 const assign = require('object-assign');
 
 class Attribution extends React.Component {
