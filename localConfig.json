@@ -11,6 +11,7 @@
     "initialMapFilter": "",
     "ignoreMobileCss": false,
     "useAuthenticationRules": true,
+    "loadAfterTheme": true,
     "themePrefix": "wdcmaps",
     "defaultMapOptions": {
       "cesium": {
@@ -41,7 +42,7 @@
 	   ],
     "initialState": {
       "defaultState": {
-        "catalog":{
+        "catalog": {
           "default": {
             "newService": {
                 "url": "",
@@ -58,6 +59,30 @@
 				"title":"Wairoa WMS",
 				"autoload":true
 			  }
+            }
+          }
+        },
+        "locales": {
+          "supportedLocales": {
+            "it": {
+              "code": "it-IT",
+              "description": "Italiano"
+            },
+            "en": {
+              "code": "en-US",
+              "description": "English"
+            },
+            "fr": {
+              "code": "fr-FR",
+              "description": "Français"
+            },
+            "de": {
+              "code": "de-DE",
+              "description": "Deutsch"
+            },
+            "es": {
+              "code": "es-ES",
+              "description": "Español"
             }
           }
         }
@@ -88,14 +113,8 @@
                 "name": "Identify",
                 "showIn": ["Settings"],
                 "cfg": {
-                    "style": {
-                        "position": "absolute",
-                        "width": "100%",
-                        "bottom": "0px",
-                        "zIndex": 1023,
-                        "maxHeight": "70%",
-                        "marginBottom": 0
-                    },
+                    "panelClassName": "mapstore-mobile-identify",
+                    "fullscreen": true,
                     "draggable": false,
                     "collapsible": true,
                     "viewerOptions": {
@@ -163,7 +182,7 @@
             }
         ],
 
-        "desktop": [
+        "desktop": [ "Details",
           {
             "name": "Map",
             "cfg": {
@@ -204,8 +223,7 @@
                 },
                 "override": {
                   "Toolbar": {
-                    "position": 11,
-                    "alwaysVisible": true
+                    "position": 11
                   }
                 }
             },
@@ -239,6 +257,7 @@
                 "name": "TOC",
                 "cfg": {
                     "activateQueryTool": true,
+                    "activateDownloadTool": true,
                     "activateAddLayerButton": true,
                     "spatialOperations": [
                         {"id": "INTERSECTS", "name": "queryform.spatialfilter.operations.intersects"},
@@ -324,7 +343,7 @@
                 "declineUrl" : "http://www.google.com"
                 }
             },
-            "OmniBar", "Login", "Save", "SaveAs", "BurgerMenu", "Expander", "Undo", "Redo", "FullScreen", "GlobeViewSwitcher", "SearchServicesConfig"
+            "OmniBar", "Login", "Save", "SaveAs", "BurgerMenu", "Expander", "Undo", "Redo", "FullScreen", "GlobeViewSwitcher", "SearchServicesConfig", "WidgetsBuilder", "Widgets"
         ],
         "embedded": [{
                 "name": "Map",
@@ -367,14 +386,8 @@
               }, {
                 "name": "Identify",
                 "cfg": {
-                    "style": {
-                        "position": "absolute",
-                        "width": "100%",
-                        "bottom": "0px",
-                        "zIndex": 1010,
-                        "maxHeight": "70%",
-                        "marginBottom": 0
-                    },
+                    "panelClassName": "mapstore-mobile-identify",
+                    "fullscreen": true,
                     "draggable": false,
                     "collapsible": true,
                     "viewerOptions": {
